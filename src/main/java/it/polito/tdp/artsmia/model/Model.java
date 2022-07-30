@@ -19,6 +19,7 @@ public class Model {
 	private Graph<ArtObject,DefaultWeightedEdge>grafo;
 	private ArtsmiaDAO dao;
 	private Map<Integer,ArtObject>idMap;
+	int c;
 	
 	public Model() {
 		dao = new ArtsmiaDAO();
